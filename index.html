@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample App</title>
+</head>
+ <body>
+    <h1>Hello World</h1>
+    <p id="msg">This is sample application</p>
+    <div>
+        <button onclick="doAction()">Click</button>
+    </div>
+  </body>
+  <script>
+    let counter = 0;
+    const doAction = () => {
+        let p = document.querySelector("#msg")
+        p.textContent = "count: " + ++counter
+    }
+  </script>
+</body>
+</html>

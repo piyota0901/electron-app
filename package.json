@@ -1,0 +1,14 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:piyota0901/electron-app.git",
+  "author": "piyota0901 <piyo.tatsu.0901@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.6"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
